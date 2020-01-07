@@ -1,1 +1,0 @@
-# yakani_evgeniya

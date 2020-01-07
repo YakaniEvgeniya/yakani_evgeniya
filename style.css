@@ -1,0 +1,76 @@
+.top {
+background: url("winter.jpg") bottom;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 8px;
+}
+p {
+background: url("blue-snow.jpg") repeat top center;
+padding: 25px;
+color: DodgerBlue;
+text-shadow: CornflowerBlue 0 0 10px;
+font-size: 50px;
+background-color: White;
+}
+div.bottom {
+width: 100%;
+max-width: 1960px;
+margin: 0 auto;
+background-repeat: no-repeat;
+}
+img {
+width: 100%;
+height: auto;
+background: url("merry.jpg") no-repeat top center;
+background-color: white;
+}
+div.container {
+width: 100%;
+max-width: 960px;
+margin: 0 auto;
+}
+.like {
+display: inline-block;
+position: relative;
+margin: 0 auto;
+overflow: hidden;
+background: #ffffff;
+}
+.lic {
+display: block;
+max-width: 100%;
+transition: opacity .2s ease-in-out;
+}
+.like:after,
+.like:before {
+box-sizing: border-box;
+position: absolute;
+width: 100%;
+padding: 30px;
+color: #000;
+text-shadow: SlateGrey 0 0 10px;
+transition: transform .4s ease-out;
+}
+.like:after {
+content: attr(data-title);
+top: 0;
+height: 20%;
+background: rgba(135,206,250,.2);
+font-size: 2rem;
+font-weight: 300;
+text-align: center;
+text-shadow: SlateGrey 0 0 5px;
+transform: translateY(-100%) scale(.8);
+}
+.like:before {
+content: attr(data-description) "…";
+top: 20%;
+height: 80%;
+background: rgba(176,224,230,.4);
+font-size: 1.7rem;
+transform: translateY(100%) scale(.8);
+}
+.like:hover:after,
+.like:hover:before {
+transform: translateY(0%) scale(1);
+}
