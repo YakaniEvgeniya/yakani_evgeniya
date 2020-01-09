@@ -1,11 +1,11 @@
 .top {
-background: url("winter.jpg") bottom;
+background: url("img/winter.jpg") bottom;
 background-size: cover;
 background-repeat: no-repeat;
 padding: 8px;
 }
 p {
-background: url("blue-snow.jpg") repeat top center;
+background: url("img/blue-snow.jpg") repeat top center;
 padding: 25px;
 color: DodgerBlue;
 text-shadow: CornflowerBlue 0 0 10px;
@@ -21,7 +21,7 @@ background-repeat: no-repeat;
 img {
 width: 100%;
 height: auto;
-background: url("merry.jpg") no-repeat top center;
+background: url("img/merry.jpg") no-repeat top center;
 background-color: white;
 }
 div.container {
