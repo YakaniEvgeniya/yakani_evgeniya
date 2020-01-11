@@ -1,76 +1,134 @@
+.navbar{
+ background:#AFEEEE;
+}
+.nav-link , .navbar-brand{
+ color: #000080;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+}
+.nav-link:hover{
+ background: #F0FFF0;
+ color: #708090;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+.header{
+ background-image: url('img/winter2.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.56);
+}
+.description{
+ position: absolute;
+ top: 30%;
+ margin: auto;
+ padding: 2em;
+} 
+.description p{
+ color: #000000;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #87CEEB;
+ background: #AFEEEE;
+ color: #000080;
+}
+#about{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+#about h1{
+ color:#F97300;
+ margin: 2em;
+}
+#about img{
+ height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+#about span{
+ display: block;
+ color: #000000;
+ text-shadow: #000080 0 0 10px;
+ position: absolute;
+ left: 130px;
+}
+#about .desc{
+ padding: 3em;
+ border-left: 6px solid #000080;
+}
+#about .desc h3{
+ color: #000080;
+}
+#about .desc p{
+ line-height: 2;
+ color: #000000;
+}
 .top {
-background: url("winter.jpg") bottom;
-background-size: cover;
-background-repeat: no-repeat;
-padding: 8px;
+ background-image: url('img/winter.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ padding-top: 50px;
+ padding-bottom: 50px;
 }
-p {
-background: url("blue-snow.jpg") repeat top center;
-padding: 25px;
-color: DodgerBlue;
-text-shadow: CornflowerBlue 0 0 10px;
-font-size: 50px;
-background-color: White;
+.top h1 {
+ text-shadow: #000080 0 0 10px;
 }
-div.bottom {
-width: 100%;
-max-width: 1960px;
-margin: 0 auto;
-background-repeat: no-repeat;
+#imgtwo {
+ background-image: url('img/winter3.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ padding: 10px;
+ margin: 0;
 }
-img {
-width: 100%;
-height: auto;
-background: url("merry.jpg") no-repeat top center;
-background-color: white;
+#img {
+ background-color: white;
+ text-shadow: #000080 0 0 10px;
+ position: relative;
+ background: rgba(244, 244, 244, 0.35);
 }
-div.container {
-width: 100%;
-max-width: 960px;
-margin: 0 auto;
+.portfolio{
+ margin: 4em 0;
+ position: relative; 
 }
-.like {
-display: inline-block;
-position: relative;
-margin: 0 auto;
-overflow: hidden;
-background: #ffffff;
+.portfolio h1{
+ color: #000080;
+ text-shadow: #000080 0 0 10px;
+ margin: 2em; 
 }
-.lic {
-display: block;
-max-width: 100%;
-transition: opacity .2s ease-in-out;
+.portfolio img{
+ height: 15rem;
+ width: 100%;
+ margin: 1em;
 }
-.like:after,
-.like:before {
-box-sizing: border-box;
-position: absolute;
-width: 100%;
-padding: 30px;
-color: #000;
-text-shadow: SlateGrey 0 0 10px;
-transition: transform .4s ease-out;
+#imgthree{
+ background: url('img/winter2.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ padding: 30px;
+ margin: 0;
 }
-.like:after {
-content: attr(data-title);
-top: 0;
-height: 20%;
-background: rgba(135,206,250,.2);
-font-size: 2rem;
-font-weight: 300;
-text-align: center;
-text-shadow: SlateGrey 0 0 5px;
-transform: translateY(-100%) scale(.8);
-}
-.like:before {
-content: attr(data-description) "…";
-top: 20%;
-height: 80%;
-background: rgba(176,224,230,.4);
-font-size: 1.7rem;
-transform: translateY(100%) scale(.8);
-}
-.like:hover:after,
-.like:hover:before {
-transform: translateY(0%) scale(1);
+.contact {
+ color: #000080;
+ text-shadow: #000080 0 0 10px;
+ margin: 2em; 
 }
