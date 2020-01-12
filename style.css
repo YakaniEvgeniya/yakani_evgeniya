@@ -1,135 +1,103 @@
-.navbar{
+.navbar {
  background:#AFEEEE;
 }
-.nav-link , .navbar-brand{
+.nav-link , .navbar-brand {
  color: #000080;
  cursor: pointer;
 }
-.nav-link{
+.nav-link {
  margin-right: 1em !important;
 }
-.nav-link:hover{
+.nav-link:hover {
  background: #F0FFF0;
  color: #708090;
 }
-.navbar-collapse{
+.navbar-collapse {
  justify-content: flex-end;
 }
-.navbar-toggler{
+.navbar-toggler {
   background:#fff !important;
 }
-.header{
- background-image: url('img/winter2.jpg');
+.header {
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
 }
-.overlay{
- position: absolute;
+.overlay {
+ min-height: 100%;
+ min-width: 80%;
+ left: 100px;
+ top: 50px;
+ right: 1000px;
+}
+.head {
  min-height: 100%;
  min-width: 100%;
- left: 0;
- top: 0;
- background: rgba(244, 244, 244, 0.56);
+ left: 100px;
+ right: 1000px;
+ background: rgba(244, 244, 244, 50.34);
 }
-.description{
+.description {
  position: absolute;
  top: 30%;
  margin: auto;
  padding: 2em;
-} 
-.description p{
+}
+.description p {
  color: #000000;
  font-size: 20px;
  width: 50%;
  line-height: 1.5;
 }
-.description button{
+.description button {
  border:1px  solid #87CEEB;
  background: #AFEEEE;
  color: #000080;
 }
-#about{
- margin: 4em 0;
+#about {
  padding: 1em;
  position: relative;
 }
-#about h1{
+#about h1 {
  color:#F97300;
  margin: 2em;
 }
-#about img{
+#about img {
  height: 100%;
-    width: 100%;
-    border-radius: 50%
+ width: 100%;
+ border-radius: 50%
 }
-#about span{
+#about span {
  display: block;
  color: #000000;
- text-shadow: #000080 0 0 10px;
  position: absolute;
  left: 130px;
 }
-#about .desc{
+#about .desc {
  padding: 3em;
  border-left: 6px solid #000080;
 }
-#about .desc h3{
+#about .desc h3 {
  color: #000080;
 }
-#about .desc p{
+#about .desc p {
  line-height: 2;
  color: #000000;
 }
-.top {
- background-image: url('img/winter.jpg');
- background-attachment: fixed;
- background-size: cover;
- padding-top: 50px;
- padding-bottom: 50px;
+div,h1,h3 {
+ color: #000080;
 }
-.top h1 {
- text-shadow: #000080 0 0 10px;
-}
-#imgtwo {
- background-image: url('img/winter3.jpg');
- background-attachment: fixed;
- background-size: cover;
- background-position: center;
- padding: 10px;
+.portfolio {
+ padding: 2em;
  margin: 0;
-}
-#img {
- background-color: white;
- text-shadow: #000080 0 0 10px;
- position: relative;
- background: rgba(244, 244, 244, 0.35);
-}
-.portfolio{
- margin: 4em 0;
  position: relative; 
 }
-.portfolio h1{
- color: #000080;
- text-shadow: #000080 0 0 10px;
- margin: 2em; 
-}
-.portfolio img{
+.portfolio img {
  height: 15rem;
  width: 100%;
  margin: 1em;
 }
-#imgthree{
- background: url('img/winter2.jpg');
- background-attachment: fixed;
- background-size: cover;
- background-position: center;
- background-color: white;
- padding: 30px;
- margin: 0;
-}
-.contact {
- color: #000080;
- text-shadow: #000080 0 0 10px;
- margin: 2em; 
+.featurette-divider {
+ margin-top: 50px;
+ margin-bottom: 50px;
 }
