@@ -1,6 +1,0 @@
-2020/02/04-10:55:05.411 e3f Reusing MANIFEST /home/yakani-evgeniya/.config/yandex-browser-beta/Default/IndexedDB/https_zen.yandex.ru_0.indexeddb.leveldb/MANIFEST-000001
-2020/02/04-10:55:05.411 e3f Recovering log #37
-2020/02/04-10:55:05.750 e3f Reusing old log /home/yakani-evgeniya/.config/yandex-browser-beta/Default/IndexedDB/https_zen.yandex.ru_0.indexeddb.leveldb/000037.log 
-2020/02/04-11:35:45.177 175d Level-0 table #41: started
-2020/02/04-11:35:45.291 175d Level-0 table #41: 1212191 bytes OK
-2020/02/04-11:35:45.320 175d Delete type=0 #37
