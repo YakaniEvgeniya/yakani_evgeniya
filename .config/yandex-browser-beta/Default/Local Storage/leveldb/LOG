@@ -1,0 +1,6 @@
+2020/02/04-10:55:04.474 e3f Reusing MANIFEST leveldb/MANIFEST-000001
+2020/02/04-10:55:04.475 e3f Recovering log #638
+2020/02/04-10:55:04.550 e3f Reusing old log leveldb/000638.log 
+2020/02/04-10:56:34.057 1025 Level-0 table #643: started
+2020/02/04-10:56:34.124 1025 Level-0 table #643: 231293 bytes OK
+2020/02/04-10:56:34.219 1025 Delete type=0 #638
