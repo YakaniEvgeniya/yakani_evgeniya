@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 <title>Приветственная страница Евгении!</title>
 </head>
 <body>
@@ -64,30 +65,76 @@ DOM/Bootstrap/jquery, работой с FTP-протоколом, создани
   </div>
 </div>
 <hr class="featurette-divider" id="portfolio">
-<div class="portfolio">
- <div class="text-center"><h1>Портфолио</h1></div>
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-12">
-       <img align="center" src="img/img-1.png" class="img-fluid">
-     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12">
-       <img align="center" src="img/img-2.png" class="img-fluid">
-     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12">
-       <img align="center" src="img/img-3.png" class="img-fluid">
-     </div>
-	  <div class="col-lg-4 col-md-4 col-sm-12">
-       <img align="center" src="img/img-4.png" class="img-fluid">
-     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12">
-       <img align="center" src="img/img-5.png" class="img-fluid">
-     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12">
-       <img align="center" src="img/img-6.png" class="img-fluid">
-     </div>
-   </div>
-  </div>
+ <div class="portfolio">
+  <div class="text-center"><h1>Портфолио</h1></div>
+    <div id="carousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="MCS_js_basics/HomeWork_Start/index.html" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/Start.png">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="MCS_js_basics/HomeWork_2/index.html" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/modul-2.png">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="MCS_js_basics/HomeWork_3_Muza/index.html" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/modul-3.png">
+                </div>
+                 <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="MCS_js_basics/HomeWork_4_1/index.html" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/modul-4_1.png">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="MCS_js_basics/HomeWork_4_2_RSB/index.html" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/modul-4_2.png">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="MCS_js_basics/HomeWork_4_3_ternary/index.html" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/modul-4_3.png">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="MCS_js_basics/HomeWork_4_4_funtion/index.html" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/modul-4_4.png">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="https://jsfiddle.net/bjmdn1y4/12/" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/modul-4_5.png">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="MCS_js_basics/HomeWork_5_1_math/index.html" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/modul-5_1.png">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="#" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/Exmp.png">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="#" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/Exmp.png">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <a href="#" target="_blank">
+                    <img class="shadow-lg img-fluid" src="img/Exmp.png">
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+ <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Предыдущие</span>
+  </a>
+ <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Следующие</span>
+  </a>
 </div>
 <hr class="featurette-divider" id="contact">
   <div class="contact">

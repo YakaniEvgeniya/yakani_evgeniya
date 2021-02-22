@@ -101,3 +101,12 @@ div,h1,h3 {
  margin-top: 50px;
  margin-bottom: 50px;
 }
+
+.shadow-lg {
+ display: inline-block;
+ max-width: 100%;
+ height: auto;
+ border-radius: 4px;
+ box-shadow: 0 0 6px #9E9E9E;
+ border: 4px solid #fff;
+}
